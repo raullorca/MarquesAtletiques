@@ -11,20 +11,24 @@ espanyol i català, s'enumeren les condicions de l'entrada de dades:
 - Pot ser **masculina**, **femenina** o **mixta** (amb integrants masculins i femenins)
 - Pot incorporar **1**, **3** o **4** atletes
 - Pot realitzar-se en **pista coberta** o al **aire lliure**.
+
 ## Marca atlètica
 - Si la prova conté més d'un atleta, l'any de naixement del atleta mes jove es farà servir com a referencia.
 - La marca s'asignará a una **categoría**, **temporada** i **lloc**.
 - Es permet opcionalment incorporar **comentaris**: _'record espanya'_ _'record comarcal'_, etc
 - Es permet opcionalment incorporar **comprobant**: _'diari la Vanguardia 18/4/2010. pag.33'_
+
 ## Mesura de la prova
 - El **temps** tindrá el format: | 3h 22' 44" 325 | => valor d'hora, minuts, segons i centècimes de segon. 
 S'admet la no inclusió dels valors no necesaris exemple: 1h 3" - 2' 4" - 59" 254 - 1h 0" 325
 (excepció: per definir les centesimes de segon, es té que definir els segons - encara que siguin zero segons)
 - La **distancia** tindrá el format: | 12.052 mts | => valor numeric amb 3 decimals
 - Els **punts** tindrá el format: | 425 punts | => valor numeric sense decimals
+
 ## Temporada de la prova
 - La temporada comença cada 1 de novembre, aixi que quan ens referim a una temporada
 es el periode entre l'u de novembre i el trenta-u d'octubre del any següent.
+
 ## Categoría de la prova
 - La categoria es calcula sobre l'any de la prova i l'any de naixemement del atleta mes jove que ha fet la prova.
 - Sobre la edat resultant es fa servir la seggüent taula
@@ -41,6 +45,7 @@ es el periode entre l'u de novembre i el trenta-u d'octubre del any següent.
 | 10-11  | Aleví      | sub-12 |
 | 8-9    | Benjamí    | sub-10 |
 | 0-7    | PreBenjamí |        
+
 ## Filtre a la llista del ranking
 
 Sexe - Pista - Categoria - Incluir categories inferiors - Prova - Quantitat de marques (per defecte 50)
