@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RaulLorca.MarquesAtletiques.Model
 {
-    public class MarkAthlete
+    public class MarkAthlete : BaseEntity
     {
         [Key, Column(Order = 0)]
         public int MarkId { get; set; }
